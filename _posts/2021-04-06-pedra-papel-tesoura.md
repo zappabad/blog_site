@@ -1,12 +1,30 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-description: this article explains something and gives a brief introduction.
-tags: welcome introduction
+title:  "Três Pedras Ganham de Um Papel"
+description: Como um jogo tão simples pode ser tão poderoso como ferramenta.
+tags: sistemas design
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+##Pedra, Papel, Sistemas e História
+Pedra-Papel-Tesoura (**RPS** em inglês) é extremamente simples de se jogar, e, francamente, extremamente sem graça, mas 
+que pode nos ensinar uma grande lição em game design.
+
+Podemos desconstruir RPS em um jogo que utiliza dois sistemas:
+
+* **Ação simultânea -** Os jogadores fazem escolhas sem conhecimento sobre a ação de seu oponente e ao mesmo tempo. 
+  (Você não vê o que o seu oponente fez para decidir o que vai fazer)
+* **Intransitividade -** Não existe nenhuma opção dominada. (Isto é, todas as opções são igualmente boas: Pedra < 
+  Papel < Tesoura < Pedra.)
+  
+A propriedade de intransitividade faz com que RPS seja caracterizado como um Game of Pure Strategy (Jogo de estratégia 
+pura, ou **GOPS**). Em um GOPS, não existe necessidade de criação de balanceamento de estratégias, pois todas as 
+estratégias já são, por definição, igualmente capazes. (isso não é *exatamente* verdade, expandiremos sobre isso 
+AQUI COLOCAR LINKKKKKKKKKKKKKKKKK). Essa propriedade, por conta da popularidade de RPS, acaba sendo trocada desse 
+nome complicado pela mais simples propriedade de **Rock-Paper-Scissors**.
+
+##Pedra é a melhor ferramenta
+
+Como ferramenta, os sistemas de RPS nos dão uma
 
 > "This is a quote which should be followed"
 > Also I think this sentence is quite long.
