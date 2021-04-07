@@ -5,7 +5,7 @@ description: Como um jogo tão simples pode ser tão poderoso como ferramenta.
 tags: sistemas design
 ---
 
-## Pedra, Papel, Sistemas e História
+# Pedra, Papel, Sistemas e História
 Pedra-Papel-Tesoura (**RPS** em inglês) é extremamente simples de se jogar, e, francamente, extremamente sem graça, mas 
 que pode nos ensinar uma grande lição em game design.
 
@@ -22,7 +22,7 @@ estratégias já são, por definição, igualmente capazes. (isso não é *exata
 AQUI COLOCAR LINKKKKKKKKKKKKKKKKK). Essa propriedade, por conta da popularidade de RPS, acaba sendo trocada desse 
 nome complicado pela mais simples propriedade de **Rock-Paper-Scissors**.
 
-## Pedra é a melhor ferramenta
+# Pedra é a melhor ferramenta
 
 Como ferramenta, os sistemas de RPS nos dão uma
 
