@@ -22,7 +22,7 @@ estratégias já são, por definição, igualmente capazes. (isso não é *exata
 AQUI COLOCAR LINKKKKKKKKKKKKKKKKK). Essa propriedade, por conta da popularidade de RPS, acaba sendo trocada desse 
 nome complicado pela mais simples propriedade de **Rock-Paper-Scissors.**
 
-# É Pau, é Pedra, é uma trap de Noobs
+# É Pau, é Pedra, é uma Trap de Noobs
 
 Jogos modernos frequentemente possuem falta de balanceamento, para o bem ou para o mal. Isso ocorre quando, de todo 
 o conjunto de ações que um jogador pode tomar, algumas delas são dominadas por outras. Em alguns casos, isso pode 
@@ -46,7 +46,7 @@ Todo esse processo pode ser divertido. Muitas vezes algo que parecia ser uma op�
 na mente do jogador, dando à ele mais uma ferramenta pro seu arsenal estratégico, e tudo isso só acontece por conta 
 desse processo de superação.
 
-# Pedra pra toda obra
+# Pedra pra Toda Obra
 
 Como ferramenta, RPS é muito útil quando o objetivo é criar um sistema que se balanceia automaticamente. É 
 impossível chegar perto do Ryu porque ele fica fazendo spam de *Hadouken*? Dê ao Ken uma habilidade que deixa ele 
@@ -57,7 +57,7 @@ evadir as *Fireballs* (por exemplo, o *Tatsumaki Senpuu Kyaku*, aquele que gira,
 distância menor, ou tentar aumentar a velocidade do *Hadouken* para dificultar o Ken de desviar delas, é possível usar 
 o RPS para criar uma terceira opção que ganha de *Tatsumaki*, mas perde para *Hadouken*: **Bloquear**.
 
-Se o Ryu bloquear o *Tatsumaki*, ele ganha uma vantagem de frames que faz com que a troca (Ken *Tatsu* vs. Ryu Block) 
+Se o Ryu bloquear o *Tatsumaki*, ele ganha uma vantagem de frames que faz com que a troca (Ken *Tatsu* vs. Ryu *Block*) 
 seja vantajosa para o Ryu. E, a peça final, claro, é que *Hadouken* possui *Chip Damage*, isto é, se você bloquear um 
 *Hadouken*, a troca é neutra em termos de frames, mas quem bloqueia perde um pouco de vida.
 
@@ -65,6 +65,16 @@ Obviamente, esse exemplo tem suas limitações. O Ryu possui ferramentas parecid
 diferentes (os frames de cada movimento deles são diferentes... O *Hadouken* do Ryu é melhor, mas o *Tatsumaki* do 
 Ken é melhor que do Ryu). O ponto do exemplo é ilustrar como a filosofia de RPS pode ser usada para construir 
 profundidade de estratégias.
+
+# La Casa de Papel
+
+Diferentes escalas de RPS podem ser empregadas no processo de design. Em uma micro-escala temos o exemplo do Ken e 
+Ryu, no qual o sistema é empregado para o balanço de "mini-jogos" que acontecem a cada segundo. É como se fossem 
+jogados vários jogos seguidos de RPS, onde cada vitória representa uma pequena vantagem de pontos de vida. Usar 
+um *Hadouken* quando seu oponente bloqueia dá 2% de dano *on block*, por exemplo. O vencedor do *round* é, portanto, 
+aquele que primeiro vence uma série de várias rodadas de RPS.
+
+Exi
 
 
 
