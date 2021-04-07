@@ -20,11 +20,55 @@ A propriedade de intransitividade faz com que RPS seja caracterizado como um Gam
 pura, ou **GOPS**). Em um GOPS, não existe necessidade de criação de balanceamento de estratégias, pois todas as 
 estratégias já são, por definição, igualmente capazes. (isso não é *exatamente* verdade, expandiremos sobre isso 
 AQUI COLOCAR LINKKKKKKKKKKKKKKKKK). Essa propriedade, por conta da popularidade de RPS, acaba sendo trocada desse 
-nome complicado pela mais simples propriedade de **Rock-Paper-Scissors**.
+nome complicado pela mais simples propriedade de **Rock-Paper-Scissors.**
 
-# Pedra é a melhor ferramenta
+# É Pau, é Pedra, é uma trap de Noobs
 
-Como ferramenta, os sistemas de RPS nos dão uma
+Jogos modernos frequentemente possuem falta de balanceamento, para o bem ou para o mal. Isso ocorre quando, de todo 
+o conjunto de ações que um jogador pode tomar, algumas delas são dominadas por outras. Em alguns casos, isso pode 
+ser um problema para o jogo, e em outros pode ser uma decisão deliberada, e esse é um ponto importante: **A 
+existência de opções dominadas não é, necessariamente, um problema.**
+
+O processo de crescimento de um jogador muitas vezes *depende* do processo de usar uma estratégia, conhecer mais do 
+jogo, e aprender que ela é uma estratégia dominada por outra, fazendo com que o jogador troque de estratégia; que o 
+que parecia ser a melhor coisa a se fazer agora é vista como uma "noob trap". **E isso em si pode ser divertido.**
+
+Como exemplo dessa lição, lembre-se da primeira vez que você jogou um jogo de luta. Você talvez ganhava todas as 
+lutas, até que um dia você jogou contra alguém que ficava do outro lado da tela fazendo spam de Fireballs. Aquele 
+Ryu que usava Hadouken o tempo todo e você não conseguia se aproximar... e quando você finalmente descobriu que é só 
+pular e ir pra cima dele, você só ouvia o Ryu gritando "Shoryuken!", e aí você caía no chão e tudo começava de novo.
+
+Depois de algumas partidas *extremamente* frustrantes, se você não desistiu de jogar, você provavelmente descobriu 
+como bloquear, ou como não deixar o Ryu sequer tomar distância de você. E aí você começou a ganhar sempre... até que 
+o Ryu aprendeu a lidar com sua nova estratégia, e assim continua o ciclo.
+
+Todo esse processo pode ser divertido. Muitas vezes algo que parecia ser uma opção dominada ganha um resignificado 
+na mente do jogador, dando à ele mais uma ferramenta pro seu arsenal estratégico, e tudo isso só acontece por conta 
+desse processo de superação.
+
+# Pedra pra toda obra
+
+Como ferramenta, RPS é muito útil quando o objetivo é criar um sistema que se balanceia automaticamente. É 
+impossível chegar perto do Ryu porque ele fica fazendo spam de *Hadouken*? Dê ao Ken uma habilidade que deixa ele 
+evadir as *Fireballs* (por exemplo, o *Tatsumaki Senpuu Kyaku*, aquele que gira, sabe?). E agora? Ninguém mais usa 
+*Hadouken* porque o *Tatsumaki* é bom demais em diminuir a distância entre o Ryu e o Ken. 
+
+É aí que entra a Tesoura! Ao invés de mexer nos frames do *Tatsumaki* para deixar ele mais lento, ou cobrindo uma 
+distância menor, ou tentar aumentar a velocidade do *Hadouken* para dificultar o Ken de desviar delas, é possível usar 
+o RPS para criar uma terceira opção que ganha de *Tatsumaki*, mas perde para *Hadouken*: **Bloquear**.
+
+Se o Ryu bloquear o *Tatsumaki*, ele ganha uma vantagem de frames que faz com que a troca (Ken *Tatsu* vs. Ryu Block) 
+seja vantajosa para o Ryu. E, a peça final, claro, é que *Hadouken* possui *Chip Damage*, isto é, se você bloquear um 
+*Hadouken*, a troca é neutra em termos de frames, mas quem bloqueia perde um pouco de vida.
+
+Obviamente, esse exemplo tem suas limitações. O Ryu possui ferramentas parecidas com as do Ken, mas com detalhes 
+diferentes (os frames de cada movimento deles são diferentes... O *Hadouken* do Ryu é melhor, mas o *Tatsumaki* do 
+Ken é melhor que do Ryu). O ponto do exemplo é ilustrar como a filosofia de RPS pode ser usada para construir 
+profundidade de estratégias.
+
+
+
+
 
 > "This is a quote which should be followed"
 > Also I think this sentence is quite long.
