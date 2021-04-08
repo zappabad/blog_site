@@ -77,9 +77,27 @@ jogados vários jogos seguidos de RPS, onde cada vitória representa uma pequena
 um *Hadouken* quando seu oponente bloqueia dá 2% de dano *on block*, por exemplo. O vencedor do *round* é, portanto, 
 aquele que primeiro vence uma série de várias rodadas de RPS.
 
-Também é possível usar o RPS em uma macro-escala. No *Street Fighter*, por exemplo, existe também
+Também é possível usar o RPS em uma macro-escala. No *Street Fighter*, por exemplo, existem grupos de personagens 
+que se encaixam, em diferentes quantidades, em uma de três caixas: *Grappler*, *Charge* ou *Rusher*. 
+*Grapplers* são aqueles que se beneficiam de lutas à curta distância, mas que possuem dificuldade em se aproximar de 
+suas vítimas; *Rushers* são personagens que dependem da sua mobilidade boa para se aproximar dos seus inimigos ... 
+são velozes, porém frágeis; e personagens de *Charge*, que são aqueles que possuem mobilidade reduzida, mas são ótimos 
+em punir aqueles que dão tempo para eles carregarem seus movimentos (daí o nome *Charger*)... eles são bons em reagir e 
+manter a distância, mas se ficarem de cara com seus inimigos, rapidamente sucumbem.
 
 <img src="{{site.baseurl}}/assets/img/rps-matchups.png">
+
+Fica bem claro que, nesse caso, existem vantagens mesmo antes da partida começar, dependendo do *match-up* que é 
+selecionado. Os *Grapplers* possuem muita dificuldade de se aproximar dos personagens de *Charge*, que se beneficiam 
+dessa distância, normalmente por possuir algum projétil bom que impede o lento e devastador *Grappler* de colar nele.
+Os *Rushers* adoram jogar contra personagens de *Charge*, pois, assim que conseguirem se aproximar (graças à sua 
+mobilidade aumentada), a luta fica à seu favor, já que os *Chargers* não podem se beneficiar de suas habilidades à 
+longa distância. E, finalmente, os *Grapplers* ficam tranquilos ao lutar contra *Rushers*, pois não precisam se 
+preocupar em se aproximar deles... é só esperar que a *Chun-Li* (uma clássica *Rusher*) venha pra cima de você, 
+afinal, ela depende de ficar próxima pra lutar, e assim que a luta ficar no mano-a-mano, o poder devastador de um 
+*Grappler* consegue se sobressair encima da fragilidade de seu oponente.
+
+
 
 
 
