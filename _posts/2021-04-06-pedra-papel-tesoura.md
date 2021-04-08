@@ -77,7 +77,7 @@ jogados vários jogos seguidos de RPS, onde cada vitória representa uma pequena
 um *Hadouken* quando seu oponente bloqueia dá 2% de dano *on block*, por exemplo. O vencedor do *round* é, portanto, 
 aquele que primeiro vence uma série de várias rodadas de RPS.
 
-Exi
+Existe
 
 
 
