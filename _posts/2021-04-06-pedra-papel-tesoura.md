@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Três Pedras Ganham de Um Papel"
+title:  "3 Pedras Ganham de 1 Papel"
 description: Como um jogo tão simples pode ser tão poderoso como ferramenta.
 tags: sistemas design
 ---
@@ -13,13 +13,13 @@ Podemos desconstruir RPS em um jogo que utiliza dois sistemas:
 
 * **Ação simultânea -** Os jogadores fazem escolhas sem conhecimento sobre a ação de seu oponente e ao mesmo tempo. 
   (Você não vê o que o seu oponente fez para decidir o que vai fazer)
-* **Intransitividade -** Não existe nenhuma opção dominada. (Isto é, todas as opções são igualmente boas: Pedra < 
-  Papel < Tesoura < Pedra.)
+* **Intransitividade -** Não existe nenhuma opção dominada. (Isto é, para todas as opções, sempre existe uma escolha 
+  do oponente que faz ela vencer, e que **só** ela consegue vencer, dada a escolha do oponente: Pedra < Papel < Tesoura < Pedra.)
   
 A propriedade de intransitividade faz com que RPS seja caracterizado como um Game of Pure Strategy (Jogo de estratégia 
 pura, ou **GOPS**). Em um GOPS, não existe necessidade de criação de balanceamento de estratégias, pois todas as 
 estratégias já são, por definição, igualmente capazes. (isso não é *exatamente* verdade, expandiremos sobre isso 
-AQUI COLOCAR LINKKKKKKKKKKKKKKKKK). Essa propriedade, por conta da popularidade de RPS, acaba sendo trocada desse 
+no futuro). Essa propriedade, por conta da popularidade de RPS, acaba sendo trocada desse 
 nome complicado pela mais simples propriedade de **Rock-Paper-Scissors.**
 
 # É Pau, é Pedra, é uma Trap de Noobs
@@ -69,7 +69,7 @@ Ken é melhor que do Ryu). O ponto do exemplo é ilustrar como **a filosofia de 
 profundidade de estratégias.**
 
 
-# La Casa de Papel
+# La Casa de Pedra, Papel, Tesoura, ...
 
 Diferentes escalas de RPS podem ser empregadas no processo de design. Em uma micro-escala temos o exemplo do Ken e 
 Ryu, no qual o sistema é empregado para o balanço de "mini-jogos" que acontecem a cada segundo. É como se fossem 
@@ -109,7 +109,45 @@ importante do que faz o jogo ficar "justo" por ser um sistema de cheques e balan
 possua alguma noção de *counterplay*. Por outro, pode causar uma sensação de injustiça e desamparo para os jogadores 
 que podem achar que já começam perdendo mesmo antes do jogo começar.
 
-Como exemplo, pense na fase de escolha de personagem no *League of Legends.* 
+Como exemplo, pense na fase de escolha de personagem, ou *draft*, no *League of Legends.* Como background, nessa 
+fase são escolhidos 10 personagens (totalizando cinco por time, cada um controlado por um jogador) que serão utilizados até o
+final da partida. Cada personagem possui distintos pontos fortes e pontos fracos, que podem ser exploitados pelos outros 
+personagens.
+
+O *draft* procede com cada time podendo escolher alguns personagens para serem banidos durante a partida, dentre o 
+elenco de mais de 100 opções. Depois disso, os times intercalam, escolhendo um personagem por turno, até que se 
+complete a escolha de todos eles.
+
+Dessa forma, um personagem forte **A** têm chance de ser "controlado" por personagem **B** inimigo que, por mais que 
+não tão objetivamente forte, possui um bom *match-up* contra **A**. E da mesma forma, um personagem **C** então pode 
+ser escolhido para complementar **A** e ajudar no combate contra **B**, e assim sucessivamente. **As escalas em que 
+essas escolhas impactam o jogo então podem ser ajustadas meticulosamente por mudanças pequenas em *match-ups* 
+específicos.**
+
+# Pedra, Papel, Tesoura e Tesouros
+
+**Em jogos modernos, RPS, como vemos, é uma ferramenta que é usada mais "em espírito" do que de forma literal na 
+criação de sistemas de jogo.** É claro que o *Zangief* possui uma chance de ganhar de um *Guile*, por mais que *Grapplers* 
+tenham uma suposta vantagem contra *Zoners*. Do contrário, o jogo terminaria na escolha de personagens, sem 
+necessidade da luta acontecer e, consequentemente, sem necessidade do *Street Fighter* existir.
+
+Pense no seguinte "jogo experimento", **Pedra, Papel, Tesouro e tesouros**:
+
+* Jogadores escolhem entre Pedra, Papel e Tesoura como em RPS tradicional, mas...
+* Cada jogador começa também com **10 "tesouros"**. Ao mostrarem suas mãos com sua escolha de RPS, os jogadores também 
+  escolhem e falam, simultaneamente, **um** ou **três** tesouros, pagando-os ao retirá-los de seu total de tesouros.
+
+Normalmente, Pedra perde para Papel, mas, se quem escolheu Pedra pagar **três tesouros**, e quem escolheu Papel 
+pagou somente **um tesouro,** vence a rodada quem escolheu Pedra. Isto é:
+
+* As regras de RPS se aplicam para decidir quem ganha normalmente, **mas três tesouros sempre ganham de um 
+  tesouro**, independente da escolha feita no RPS. Do contrário (ou seja, três contra três tesouros, ou um contra um 
+  tesouro), vence quem venceria a rodada de RPS.
+* Perde quem perder cinco rodadas primeiro, ou quem não tiver tesouros sobrando para pagar mais rodadas, o que vier 
+  primeiro.
+
+Pense nesse jogo. Pense nas estratégias que são possíveis dada essa modificação simples ao jogo de RPS. É sério, vou 
+te dar um tempo pra pensar... e na semana que vem falaremos mais sobre ele.
 
 
 
@@ -119,46 +157,3 @@ Como exemplo, pense na fase de escolha de personagem no *League of Legends.*
 
 
 
-
-> "This is a quote which should be followed"
-> Also I think this sentence is quite long.
-> more quote text to come
->   - Chris Wayne
-
-However, these are bulletpoints:
-
-* To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-* another point
-* that's it
-
-However, these entries should not be styled:
-
-1. an entry
-2. another entry
-3. that's another entry
-
-<video preload="auto" poster="https://pbs.twimg.com/tweet_video_thumb/D5aj3tfW0AIiSxo.jpg" src="https://video.twimg.com/tweet_video/D5aj3tfW0AIiSxo.mp4" type="video/mp4" autoplay controls></video>
-
-Jekyll also offers powerful support for code snippets:
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-# An interesting fact on the economy of modern America
-
-Pictures look like this:
-
-![image](https://picsum.photos/200)
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/jekyll?src=hash&amp;ref_src=twsrc%5Etfw">#jekyll</a> <a href="https://twitter.com/hashtag/dash?src=hash&amp;ref_src=twsrc%5Etfw">#dash</a> now officially supports both, dark and light theming. Enjoy!<a href="https://t.co/4evp9pX2Ws">https://t.co/4evp9pX2Ws</a> <a href="https://t.co/vOQCZjGKic">pic.twitter.com/vOQCZjGKic</a></p>&mdash; 〽️ɪɢᴜᴇʟ (@bitbrain_) <a href="https://twitter.com/bitbrain_/status/1166440978124877827?ref_src=twsrc%5Etfw">August 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
