@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-08T10:38:45-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">3-Rocks-1-Paper</title><subtitle>Um blog de exploração de diversos temas dentro do game design com o objetivo de inspirar criatividade e criar discussão sobre todas as formas de jogos.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-08T10:42:25-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">3-Rocks-1-Paper</title><subtitle>Um blog de exploração de diversos temas dentro do game design com o objetivo de inspirar criatividade e criar discussão sobre todas as formas de jogos.
 </subtitle><author><name>Gabriel Singh Bruno</name></author><entry><title type="html">3 Pedras Ganham de 1 Papel</title><link href="http://localhost:4000/2021/04/06/pedra-papel-tesoura.html" rel="alternate" type="text/html" title="3 Pedras Ganham de 1 Papel" /><published>2021-04-06T00:00:00-03:00</published><updated>2021-04-06T00:00:00-03:00</updated><id>http://localhost:4000/2021/04/06/pedra-papel-tesoura</id><content type="html" xml:base="http://localhost:4000/2021/04/06/pedra-papel-tesoura.html">&lt;h1 id=&quot;pedra-papel-sistemas-e-história&quot;&gt;Pedra, Papel, Sistemas e História&lt;/h1&gt;
 &lt;p&gt;Pedra-Papel-Tesoura (&lt;strong&gt;RPS&lt;/strong&gt; em inglês) é extremamente simples de se jogar, e, francamente, extremamente sem graça, mas 
 que pode nos ensinar uma grande lição em game design.&lt;/p&gt;
@@ -126,7 +126,7 @@ criação de sistemas de jogo.&lt;/strong&gt; É claro que o &lt;em&gt;Zangief&l
 tenham uma suposta vantagem contra &lt;em&gt;Zoners&lt;/em&gt;. Do contrário, o jogo terminaria na escolha de personagens, sem 
 necessidade da luta acontecer e, consequentemente, sem necessidade do &lt;em&gt;Street Fighter&lt;/em&gt; existir.&lt;/p&gt;
 
-&lt;p&gt;Pense no seguinte “jogo experimento”, &lt;strong&gt;Pedra, Papel, Tesouro e tesouros&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Pense no seguinte “jogo experimento”, &lt;strong&gt;Pedra, Papel, Tesoura e tesouros&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Jogadores escolhem entre Pedra, Papel e Tesoura como em RPS tradicional, mas…&lt;/li&gt;

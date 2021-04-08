@@ -102,6 +102,7 @@ ganhar um RPS ao escolher um estilo de personagem bom contra o seu oponente sign
 rodadas vencidas... o seu oponente vai ter que fazer hora extra pra compensar a desvantagem de *match-up* que ele 
 escolheu tomar.
 
+
 # ... Lizard e Spock
 
 Os sistemas de RPS em macro-escala podem acontecer em diferentes magnitudes. Por um lado, pode ser uma parte 
@@ -124,6 +125,7 @@ ser escolhido para complementar **A** e ajudar no combate contra **B**, e assim 
 essas escolhas impactam o jogo então podem ser ajustadas meticulosamente por mudanças pequenas em *match-ups* 
 específicos.**
 
+
 # Pedra, Papel, Tesoura e Tesouros
 
 **Em jogos modernos, RPS, como vemos, é uma ferramenta que é usada mais "em espírito" do que de forma literal na 
@@ -131,7 +133,7 @@ criação de sistemas de jogo.** É claro que o *Zangief* possui uma chance de g
 tenham uma suposta vantagem contra *Zoners*. Do contrário, o jogo terminaria na escolha de personagens, sem 
 necessidade da luta acontecer e, consequentemente, sem necessidade do *Street Fighter* existir.
 
-Pense no seguinte "jogo experimento", **Pedra, Papel, Tesouro e tesouros**:
+Pense no seguinte "jogo experimento", **Pedra, Papel, Tesoura e tesouros**:
 
 * Jogadores escolhem entre Pedra, Papel e Tesoura como em RPS tradicional, mas...
 * Cada jogador começa também com **10 "tesouros"**. Ao mostrarem suas mãos com sua escolha de RPS, os jogadores também 
