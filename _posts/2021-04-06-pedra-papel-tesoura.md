@@ -61,11 +61,7 @@ Se o Ryu bloquear o *Tatsumaki*, ele ganha uma vantagem de frames que faz com qu
 seja vantajosa para o Ryu. E, a peça final, claro, é que *Hadouken* possui *Chip Damage*, isto é, se você bloquear um 
 *Hadouken*, a troca é neutra em termos de frames, mas quem bloqueia perde um pouco de vida.
 
-![image](https://i.imgur.com/xLkJWqG.png)
-imagem 1
-
 <img src="{{site.baseurl}}/assets/img/rps-skills.png">
-imagem2
 
 Obviamente, esse exemplo tem suas limitações. O Ryu possui ferramentas parecidas com as do Ken, mas com detalhes 
 diferentes (os frames de cada movimento deles são diferentes... O *Hadouken* do Ryu é melhor, mas o *Tatsumaki* do 
@@ -81,8 +77,9 @@ jogados vários jogos seguidos de RPS, onde cada vitória representa uma pequena
 um *Hadouken* quando seu oponente bloqueia dá 2% de dano *on block*, por exemplo. O vencedor do *round* é, portanto, 
 aquele que primeiro vence uma série de várias rodadas de RPS.
 
-Existe
+Também é possível usar o RPS em uma macro-escala. No *Street Fighter*, por exemplo, existe também
 
+<img src="{{site.baseurl}}/assets/img/rps-matchups.png">
 
 
 
