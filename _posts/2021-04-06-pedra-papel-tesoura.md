@@ -61,10 +61,13 @@ Se o Ryu bloquear o *Tatsumaki*, ele ganha uma vantagem de frames que faz com qu
 seja vantajosa para o Ryu. E, a peça final, claro, é que *Hadouken* possui *Chip Damage*, isto é, se você bloquear um 
 *Hadouken*, a troca é neutra em termos de frames, mas quem bloqueia perde um pouco de vida.
 
+![image](https://imgur.com/a/OAueGn2)
+
 Obviamente, esse exemplo tem suas limitações. O Ryu possui ferramentas parecidas com as do Ken, mas com detalhes 
 diferentes (os frames de cada movimento deles são diferentes... O *Hadouken* do Ryu é melhor, mas o *Tatsumaki* do 
 Ken é melhor que do Ryu). O ponto do exemplo é ilustrar como a filosofia de RPS pode ser usada para construir 
 profundidade de estratégias.
+
 
 # La Casa de Papel
 
