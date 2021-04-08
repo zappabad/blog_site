@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "3 Pedras Ganham de 1 Papel"
-description: Como um jogo tão simples pode ser tão poderoso como ferramenta.
+description: Uma leitura de 12min.
 tags: sistemas design
 ---
 
@@ -22,7 +22,7 @@ estratégias já são, por definição, igualmente capazes. (isso não é *exata
 no futuro). Essa propriedade, por conta da popularidade de RPS, acaba sendo trocada desse 
 nome complicado pela mais simples propriedade de **Rock-Paper-Scissors.**
 
-# É Pau, é Pedra, é uma Trap de Noobs
+# É Pau, é Pedra...
 
 Jogos modernos frequentemente possuem falta de balanceamento, para o bem ou para o mal. Isso ocorre quando, de todo 
 o conjunto de ações que um jogador pode tomar, algumas delas são dominadas por outras. Em alguns casos, isso pode 
