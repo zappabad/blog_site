@@ -62,8 +62,10 @@ seja vantajosa para o Ryu. E, a peça final, claro, é que *Hadouken* possui *Ch
 *Hadouken*, a troca é neutra em termos de frames, mas quem bloqueia perde um pouco de vida.
 
 ![image](https://i.imgur.com/xLkJWqG.png)
+imagem 1
 
 <img src="{{site.baseurl}}/assets/img/rps-skills.png">
+imagem2
 
 Obviamente, esse exemplo tem suas limitações. O Ryu possui ferramentas parecidas com as do Ken, mas com detalhes 
 diferentes (os frames de cada movimento deles são diferentes... O *Hadouken* do Ryu é melhor, mas o *Tatsumaki* do 
