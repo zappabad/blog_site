@@ -42,8 +42,8 @@ Depois de algumas partidas *extremamente* frustrantes, se você não desistiu de
 como bloquear, ou como não deixar o Ryu sequer tomar distância de você. E aí você começou a ganhar sempre... até que 
 o Ryu aprendeu a lidar com sua nova estratégia, e assim continua o ciclo.
 
-Todo esse processo pode ser divertido. Muitas vezes algo que parecia ser uma opção dominada ganha um resignificado 
-na mente do jogador, dando à ele mais uma ferramenta pro seu arsenal estratégico, e tudo isso só acontece por conta 
+Todo esse processo pode ser divertido. **Muitas vezes algo que parecia ser uma opção dominada ganha um resignificado 
+na mente do jogador**, dando à ele mais uma ferramenta pro seu arsenal estratégico, e tudo isso só acontece por conta 
 desse processo de superação.
 
 # Pedra pra Toda Obra
@@ -55,7 +55,7 @@ evadir as *Fireballs* (por exemplo, o *Tatsumaki Senpuu Kyaku*, aquele que gira,
 
 É aí que entra a Tesoura! Ao invés de mexer nos frames do *Tatsumaki* para deixar ele mais lento, ou cobrindo uma 
 distância menor, ou tentar aumentar a velocidade do *Hadouken* para dificultar o Ken de desviar delas, é possível usar 
-o RPS para criar uma terceira opção que ganha de *Tatsumaki*, mas perde para *Hadouken*: **Bloquear**.
+o RPS para criar uma terceira opção que ganha de *Tatsumaki*, mas perde para *Hadouken*: **Bloquear.**
 
 Se o Ryu bloquear o *Tatsumaki*, ele ganha uma vantagem de frames que faz com que a troca (Ken *Tatsu* vs. Ryu *Block*) 
 seja vantajosa para o Ryu. E, a peça final, claro, é que *Hadouken* possui *Chip Damage*, isto é, se você bloquear um 
@@ -65,8 +65,8 @@ seja vantajosa para o Ryu. E, a peça final, claro, é que *Hadouken* possui *Ch
 
 Obviamente, esse exemplo tem suas limitações. O Ryu possui ferramentas parecidas com as do Ken, mas com detalhes 
 diferentes (os frames de cada movimento deles são diferentes... O *Hadouken* do Ryu é melhor, mas o *Tatsumaki* do 
-Ken é melhor que do Ryu). O ponto do exemplo é ilustrar como a filosofia de RPS pode ser usada para construir 
-profundidade de estratégias.
+Ken é melhor que do Ryu). O ponto do exemplo é ilustrar como **a filosofia de RPS pode ser usada para construir 
+profundidade de estratégias.**
 
 
 # La Casa de Papel
@@ -78,24 +78,42 @@ um *Hadouken* quando seu oponente bloqueia dá 2% de dano *on block*, por exempl
 aquele que primeiro vence uma série de várias rodadas de RPS.
 
 Também é possível usar o RPS em uma macro-escala. No *Street Fighter*, por exemplo, existem grupos de personagens 
-que se encaixam, em diferentes quantidades, em uma de três caixas: *Grappler*, *Charge* ou *Rusher*. 
+que se encaixam, em diferentes quantidades, em uma de três caixas: *Grappler*, *Zoner* ou *Rusher*. 
 *Grapplers* são aqueles que se beneficiam de lutas à curta distância, mas que possuem dificuldade em se aproximar de 
 suas vítimas; *Rushers* são personagens que dependem da sua mobilidade boa para se aproximar dos seus inimigos ... 
-são velozes, porém frágeis; e personagens de *Charge*, que são aqueles que possuem mobilidade reduzida, mas são ótimos 
-em punir aqueles que dão tempo para eles carregarem seus movimentos (daí o nome *Charger*)... eles são bons em reagir e 
+são velozes, porém frágeis; e *Zoners*, que são aqueles que possuem mobilidade reduzida, mas são ótimos 
+em punir aqueles que dão tempo para eles carregarem seus movimentos (daí o nome *Zoner*)... eles são bons em reagir e 
 manter a distância, mas se ficarem de cara com seus inimigos, rapidamente sucumbem.
 
 <img src="{{site.baseurl}}/assets/img/rps-matchups.png">
 
-Fica bem claro que, nesse caso, existem vantagens mesmo antes da partida começar, dependendo do *match-up* que é 
-selecionado. Os *Grapplers* possuem muita dificuldade de se aproximar dos personagens de *Charge*, que se beneficiam 
-dessa distância, normalmente por possuir algum projétil bom que impede o lento e devastador *Grappler* de colar nele.
-Os *Rushers* adoram jogar contra personagens de *Charge*, pois, assim que conseguirem se aproximar (graças à sua 
-mobilidade aumentada), a luta fica à seu favor, já que os *Chargers* não podem se beneficiar de suas habilidades à 
+Fica bem claro que, nesse caso, **existem vantagens mesmo antes da partida começar**, dependendo do *match-up* que é 
+selecionado. Os *Grapplers* possuem muita dificuldade de se aproximar dos *Zoners*, que se beneficiam 
+dessa distância, normalmente por possuir algum projétil bom que impede o lento e furioso *Grappler* de colar nele.
+Os *Rushers* adoram jogar contra *Zoners*, pois, assim que conseguirem se aproximar (graças à sua 
+mobilidade aumentada), a luta fica à seu favor, já que os *Zoners* não podem se beneficiar de suas habilidades à 
 longa distância. E, finalmente, os *Grapplers* ficam tranquilos ao lutar contra *Rushers*, pois não precisam se 
 preocupar em se aproximar deles... é só esperar que a *Chun-Li* (uma clássica *Rusher*) venha pra cima de você, 
 afinal, ela depende de ficar próxima pra lutar, e assim que a luta ficar no mano-a-mano, o poder devastador de um 
-*Grappler* consegue se sobressair encima da fragilidade de seu oponente.
+*Grappler* consegue atropelar a fragilidade de seu oponente.
+
+Em micro-escala, vencer uma rodada de RPS significava uma pequena vitória em pontos de vida, e em macro-escala, 
+ganhar um RPS ao escolher um estilo de personagem bom contra o seu oponente significa começar a série já com algumas 
+rodadas vencidas... o seu oponente vai ter que fazer hora extra pra compensar a desvantagem de *match-up* que ele 
+escolheu tomar.
+
+# ... Lizard e Spock
+
+Os sistemas de RPS em macro-escala podem acontecer em diferentes magnitudes. Por um lado, pode ser uma parte 
+importante do que faz o jogo ficar "justo" por ser um sistema de cheques e balanças que é integral para que o jogo 
+possua alguma noção de *counterplay*. Por outro, pode causar uma sensação de injustiça e desamparo para os jogadores 
+que podem achar que já começam perdendo mesmo antes do jogo começar.
+
+Como exemplo, pense na fase de escolha de personagem no *League of Legends.* 
+
+
+
+
 
 
 
