@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Três Pedras Ganham de Um Papel | 3-Rocks-1-Paper</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Três Pedras Ganham de Um Papel" />
+<meta name="author" content="Gabriel Singh Bruno" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Como um jogo tão simples pode ser tão poderoso como ferramenta." />
+<meta property="og:description" content="Como um jogo tão simples pode ser tão poderoso como ferramenta." />
+<link rel="canonical" href="http://localhost:4000/2021/04/06/pedra-papel-tesoura.html" />
+<meta property="og:url" content="http://localhost:4000/2021/04/06/pedra-papel-tesoura.html" />
+<meta property="og:site_name" content="3-Rocks-1-Paper" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-06T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Três Pedras Ganham de Um Papel" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"http://localhost:4000/2021/04/06/pedra-papel-tesoura.html","headline":"Três Pedras Ganham de Um Papel","dateModified":"2021-04-06T00:00:00-03:00","datePublished":"2021-04-06T00:00:00-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/04/06/pedra-papel-tesoura.html"},"author":{"@type":"Person","name":"Gabriel Singh Bruno"},"description":"Como um jogo tão simples pode ser tão poderoso como ferramenta.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/png" href="/assets/favicon.png" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="3-Rocks-1-Paper" /></head>
+<body><div class="site-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">3-Rocks-1-Paper<b class="command_prompt"></b><b class="blinking_cursor">_</b></a>
+    <span class="social_links">
+        <a class="color-cyan-hover" href="https://twitter.com/zappabad"><i class="fab fa-twitter"></i></a><a class="color-purple-hover" href="https://github.com/zappabad"><i class="fab fa-github"></i></a><a class="color-blue-hover" href="https://discordapp.com/users/247560248712364034"><i class="fab fa-discord"></i></a><a class="color-yellow-hover" href="https://steamcommunity.com/id/Ssilhouette"><i class="fab fa-steam"></i></a><a class="color-blue-hover" href="https://www.linkedin.com/in/gabriel-singh-bruno-8b7a471b6/"><i class="fab fa-linkedin"></i></a><a class="color-orange-hover" href="https://www.reddit.com/user/Ssilhouette"><i class="fab fa-reddit"></i></a><a class="color-purple-hover" href="https://www.twitch.tv/zappabad"><i class="fab fa-twitch"></i></a><a class="color-red-hover" href="https://www.youtube.com/channel/UCZjiRh1_sDyOFzAm4Enk64g"><i class="fab fa-youtube"></i></a>
+    </span>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+  <div class="author-box">
+    
+    
+        <img src="
+            https://gravatar.com/avatar/d12ae8f58d9a3142de99eb94cffa0167?s=256
+        " class="author-avatar" alt="Avatar" />
+    
+Um blog de exploração sobre diversos temas dentro do game design.
+
+</div>
+
+
+<div class="post">
+  <h1 class="post-title">Três Pedras Ganham de Um Papel</h1>
+  
+  <div class="post-tags">
+      
+      <a class="tag" href="/tag/sistemas/">sistemas</a>
+      
+      <a class="tag" href="/tag/design/">design</a>
+      
+  </div>
+  
+  <div class="post-date">Publicado em 06 Apr 2021</div>
+  
+  <noscript>
+    <div class="post-description">Como um jogo tão simples pode ser tão poderoso como ferramenta.</div>
+  </noscript>
+  <div id="animated-post-description" class="post-description" style="display: none;"></div>
+  
+  <h1 id="pedra-papel-sistemas-e-história">Pedra, Papel, Sistemas e História</h1>
+<p>Pedra-Papel-Tesoura (<strong>RPS</strong> em inglês) é extremamente simples de se jogar, e, francamente, extremamente sem graça, mas 
+que pode nos ensinar uma grande lição em game design.</p>
+
+<p>Podemos desconstruir RPS em um jogo que utiliza dois sistemas:</p>
+
+<ul>
+  <li><strong>Ação simultânea -</strong> Os jogadores fazem escolhas sem conhecimento sobre a ação de seu oponente e ao mesmo tempo. 
+(Você não vê o que o seu oponente fez para decidir o que vai fazer)</li>
+  <li><strong>Intransitividade -</strong> Não existe nenhuma opção dominada. (Isto é, todas as opções são igualmente boas: Pedra &lt; 
+Papel &lt; Tesoura &lt; Pedra.)</li>
+</ul>
+
+<p>A propriedade de intransitividade faz com que RPS seja caracterizado como um Game of Pure Strategy (Jogo de estratégia 
+pura, ou <strong>GOPS</strong>). Em um GOPS, não existe necessidade de criação de balanceamento de estratégias, pois todas as 
+estratégias já são, por definição, igualmente capazes. (isso não é <em>exatamente</em> verdade, expandiremos sobre isso 
+AQUI COLOCAR LINKKKKKKKKKKKKKKKKK). Essa propriedade, por conta da popularidade de RPS, acaba sendo trocada desse 
+nome complicado pela mais simples propriedade de <strong>Rock-Paper-Scissors.</strong></p>
+
+<h1 id="é-pau-é-pedra-é-uma-trap-de-noobs">É Pau, é Pedra, é uma Trap de Noobs</h1>
+
+<p>Jogos modernos frequentemente possuem falta de balanceamento, para o bem ou para o mal. Isso ocorre quando, de todo 
+o conjunto de ações que um jogador pode tomar, algumas delas são dominadas por outras. Em alguns casos, isso pode 
+ser um problema para o jogo, e em outros pode ser uma decisão deliberada, e esse é um ponto importante: <strong>A 
+existência de opções dominadas não é, necessariamente, um problema.</strong></p>
+
+<p>O processo de crescimento de um jogador muitas vezes <em>depende</em> do processo de usar uma estratégia, conhecer mais do 
+jogo, e aprender que ela é uma estratégia dominada por outra, fazendo com que o jogador troque de estratégia; que o 
+que parecia ser a melhor coisa a se fazer agora é vista como uma “noob trap”. <strong>E isso em si pode ser divertido.</strong></p>
+
+<p>Como exemplo dessa lição, lembre-se da primeira vez que você jogou um jogo de luta. Você talvez ganhava todas as 
+lutas, até que um dia você jogou contra alguém que ficava do outro lado da tela fazendo spam de Fireballs. Aquele 
+Ryu que usava Hadouken o tempo todo e você não conseguia se aproximar… e quando você finalmente descobriu que é só 
+pular e ir pra cima dele, você só ouvia o Ryu gritando “Shoryuken!”, e aí você caía no chão e tudo começava de novo.</p>
+
+<p>Depois de algumas partidas <em>extremamente</em> frustrantes, se você não desistiu de jogar, você provavelmente descobriu 
+como bloquear, ou como não deixar o Ryu sequer tomar distância de você. E aí você começou a ganhar sempre… até que 
+o Ryu aprendeu a lidar com sua nova estratégia, e assim continua o ciclo.</p>
+
+<p>Todo esse processo pode ser divertido. <strong>Muitas vezes algo que parecia ser uma opção dominada ganha um resignificado 
+na mente do jogador</strong>, dando à ele mais uma ferramenta pro seu arsenal estratégico, e tudo isso só acontece por conta 
+desse processo de superação.</p>
+
+<h1 id="pedra-pra-toda-obra">Pedra pra Toda Obra</h1>
+
+<p>Como ferramenta, RPS é muito útil quando o objetivo é criar um sistema que se balanceia automaticamente. É 
+impossível chegar perto do Ryu porque ele fica fazendo spam de <em>Hadouken</em>? Dê ao Ken uma habilidade que deixa ele 
+evadir as <em>Fireballs</em> (por exemplo, o <em>Tatsumaki Senpuu Kyaku</em>, aquele que gira, sabe?). E agora? Ninguém mais usa 
+<em>Hadouken</em> porque o <em>Tatsumaki</em> é bom demais em diminuir a distância entre o Ryu e o Ken.</p>
+
+<p>É aí que entra a Tesoura! Ao invés de mexer nos frames do <em>Tatsumaki</em> para deixar ele mais lento, ou cobrindo uma 
+distância menor, ou tentar aumentar a velocidade do <em>Hadouken</em> para dificultar o Ken de desviar delas, é possível usar 
+o RPS para criar uma terceira opção que ganha de <em>Tatsumaki</em>, mas perde para <em>Hadouken</em>: <strong>Bloquear.</strong></p>
+
+<p>Se o Ryu bloquear o <em>Tatsumaki</em>, ele ganha uma vantagem de frames que faz com que a troca (Ken <em>Tatsu</em> vs. Ryu <em>Block</em>) 
+seja vantajosa para o Ryu. E, a peça final, claro, é que <em>Hadouken</em> possui <em>Chip Damage</em>, isto é, se você bloquear um 
+<em>Hadouken</em>, a troca é neutra em termos de frames, mas quem bloqueia perde um pouco de vida.</p>
+
+<p><img src="/assets/img/rps-skills.png" /></p>
+
+<p>Obviamente, esse exemplo tem suas limitações. O Ryu possui ferramentas parecidas com as do Ken, mas com detalhes 
+diferentes (os frames de cada movimento deles são diferentes… O <em>Hadouken</em> do Ryu é melhor, mas o <em>Tatsumaki</em> do 
+Ken é melhor que do Ryu). O ponto do exemplo é ilustrar como <strong>a filosofia de RPS pode ser usada para construir 
+profundidade de estratégias.</strong></p>
+
+<h1 id="la-casa-de-papel">La Casa de Papel</h1>
+
+<p>Diferentes escalas de RPS podem ser empregadas no processo de design. Em uma micro-escala temos o exemplo do Ken e 
+Ryu, no qual o sistema é empregado para o balanço de “mini-jogos” que acontecem a cada segundo. É como se fossem 
+jogados vários jogos seguidos de RPS, onde cada vitória representa uma pequena vantagem de pontos de vida. Usar 
+um <em>Hadouken</em> quando seu oponente bloqueia dá 2% de dano <em>on block</em>, por exemplo. O vencedor do <em>round</em> é, portanto, 
+aquele que primeiro vence uma série de várias rodadas de RPS.</p>
+
+<p>Também é possível usar o RPS em uma macro-escala. No <em>Street Fighter</em>, por exemplo, existem grupos de personagens 
+que se encaixam, em diferentes quantidades, em uma de três caixas: <em>Grappler</em>, <em>Zoner</em> ou <em>Rusher</em>. 
+<em>Grapplers</em> são aqueles que se beneficiam de lutas à curta distância, mas que possuem dificuldade em se aproximar de 
+suas vítimas; <em>Rushers</em> são personagens que dependem da sua mobilidade boa para se aproximar dos seus inimigos … 
+são velozes, porém frágeis; e <em>Zoners</em>, que são aqueles que possuem mobilidade reduzida, mas são ótimos 
+em punir aqueles que dão tempo para eles carregarem seus movimentos (daí o nome <em>Zoner</em>)… eles são bons em reagir e 
+manter a distância, mas se ficarem de cara com seus inimigos, rapidamente sucumbem.</p>
+
+<p><img src="/assets/img/rps-matchups.png" /></p>
+
+<p>Fica bem claro que, nesse caso, <strong>existem vantagens mesmo antes da partida começar</strong>, dependendo do <em>match-up</em> que é 
+selecionado. Os <em>Grapplers</em> possuem muita dificuldade de se aproximar dos <em>Zoners</em>, que se beneficiam 
+dessa distância, normalmente por possuir algum projétil bom que impede o lento e furioso <em>Grappler</em> de colar nele.
+Os <em>Rushers</em> adoram jogar contra <em>Zoners</em>, pois, assim que conseguirem se aproximar (graças à sua 
+mobilidade aumentada), a luta fica à seu favor, já que os <em>Zoners</em> não podem se beneficiar de suas habilidades à 
+longa distância. E, finalmente, os <em>Grapplers</em> ficam tranquilos ao lutar contra <em>Rushers</em>, pois não precisam se 
+preocupar em se aproximar deles… é só esperar que a <em>Chun-Li</em> (uma clássica <em>Rusher</em>) venha pra cima de você, 
+afinal, ela depende de ficar próxima pra lutar, e assim que a luta ficar no mano-a-mano, o poder devastador de um 
+<em>Grappler</em> consegue atropelar a fragilidade de seu oponente.</p>
+
+<p>Em micro-escala, vencer uma rodada de RPS significava uma pequena vitória em pontos de vida, e em macro-escala, 
+ganhar um RPS ao escolher um estilo de personagem bom contra o seu oponente significa começar a série já com algumas 
+rodadas vencidas… o seu oponente vai ter que fazer hora extra pra compensar a desvantagem de <em>match-up</em> que ele 
+escolheu tomar.</p>
+
+<h1 id="-lizard-e-spock">… Lizard e Spock</h1>
+
+<p>Os sistemas de RPS em macro-escala podem acontecer em diferentes magnitudes. Por um lado, pode ser uma parte 
+importante do que faz o jogo ficar “justo” por ser um sistema de cheques e balanças que é integral para que o jogo 
+possua alguma noção de <em>counterplay</em>. Por outro, pode causar uma sensação de injustiça e desamparo para os jogadores 
+que podem achar que já começam perdendo mesmo antes do jogo começar.</p>
+
+<p>Como exemplo, pense na fase de escolha de personagem no <em>League of Legends.</em></p>
+
+<blockquote>
+  <p>“This is a quote which should be followed”
+Also I think this sentence is quite long.
+more quote text to come</p>
+  <ul>
+    <li>Chris Wayne</li>
+  </ul>
+</blockquote>
+
+<p>However, these are bulletpoints:</p>
+
+<ul>
+  <li>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</li>
+  <li>another point</li>
+  <li>that’s it</li>
+</ul>
+
+<p>However, these entries should not be styled:</p>
+
+<ol>
+  <li>an entry</li>
+  <li>another entry</li>
+  <li>that’s another entry</li>
+</ol>
+
+<video preload="auto" poster="https://pbs.twimg.com/tweet_video_thumb/D5aj3tfW0AIiSxo.jpg" src="https://video.twimg.com/tweet_video/D5aj3tfW0AIiSxo.mp4" type="video/mp4" autoplay="" controls=""></video>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
+</code></pre></div></div>
+
+<h1 id="an-interesting-fact-on-the-economy-of-modern-america">An interesting fact on the economy of modern America</h1>
+
+<p>Pictures look like this:</p>
+
+<p><img src="https://picsum.photos/200" alt="image" /></p>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/jekyll?src=hash&amp;ref_src=twsrc%5Etfw">#jekyll</a> <a href="https://twitter.com/hashtag/dash?src=hash&amp;ref_src=twsrc%5Etfw">#dash</a> now officially supports both, dark and light theming. Enjoy!<a href="https://t.co/4evp9pX2Ws">https://t.co/4evp9pX2Ws</a> <a href="https://t.co/vOQCZjGKic">pic.twitter.com/vOQCZjGKic</a></p>&mdash; 〽️ɪɢᴜᴇʟ (@bitbrain_) <a href="https://twitter.com/bitbrain_/status/1166440978124877827?ref_src=twsrc%5Etfw">August 27, 2019</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+</div>
+
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script>
+ var disqus_config = function () {
+     this.page.url = 'http://localhost:4000/2021/04/06/pedra-papel-tesoura.html';
+     this.page.identifier = '/2021/04/06/pedra-papel-tesoura';
+     this.page.title = 'Três Pedras Ganham de Um Papel';
+ };
+
+ (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+     var d = document, s = d.createElement('script');
+
+     s.src = '//bitbrain-github-io.disqus.com/embed.js';
+
+     s.setAttribute('data-timestamp', +new Date());
+     (d.head || d.body).appendChild(s);
+ })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</div>
+
+
+
+
+<div class="related">
+  <h2>Publicações relacionadas</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2019/04/13/introduction-to-waiting.html">
+            Introducing waiting functionality
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2019/03/16/analysis-of-design.html">
+            An extensive analysis on game design
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2019/01/10/review-game-of-thrones.html">
+            Review: Game of Thrones Saga
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+  
+  <h2>Todas as tags</h2>
+  <div class="tag-cloud"><a href="/tag/analysis/" class="set-1">analysis</a> <a href="/tag/design/" class="set-5">design</a> <a href="/tag/got/" class="set-1">got</a> <a href="/tag/introduction/" class="set-1">introduction</a> <a href="/tag/review/" class="set-1">review</a> <a href="/tag/sistemas/" class="set-1">sistemas</a> <a href="/tag/tutorial/" class="set-1">tutorial</a></div>
+  
+
+
+
+
+<script>
+  let i = 0;
+  const text = 'Como um jogo tão simples pode ser tão poderoso como ferramenta.';
+  const speed = parseInt('50');
+  
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById('animated-post-description').innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  document.getElementById('animated-post-description').style.display = 'initial';
+  typeWriter();
+</script>
+
+      </div>
+    </main><footer class="site-footer">
+  <div class="wrapper">
+    <div class="credits"><a href="https://github.com/bitbrain/jekyll-dash">dash</a> theme for Jekyll by <a href="https://github.com/bitbrain">bitbrain</a> made with <i class="fas fa-heart"></i><div class="toggleWrapper">
+    <input type="checkbox" class="dn" id="theme-toggle" onclick="modeSwitcher()" checked />
+    <label for="theme-toggle" class="toggle">
+    <span class="toggle__handler">
+      <span class="crater crater--1"></span>
+      <span class="crater crater--2"></span>
+      <span class="crater crater--3"></span>
+    </span>
+        <span class="star star--1"></span>
+        <span class="star star--2"></span>
+        <span class="star star--3"></span>
+        <span class="star star--4"></span>
+        <span class="star star--5"></span>
+        <span class="star star--6"></span>
+    </label>
+</div>
+<script type="text/javascript">
+const theme = localStorage.getItem('theme');
+
+if (theme === "light") {
+    document.documentElement.setAttribute('data-theme', 'light');
+} else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+}
+const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
+
+function activateDarkTheme() {
+    document.getElementById('theme-toggle').checked = true;
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.documentElement.classList.add('theme--dark');
+    document.documentElement.classList.remove('theme--light');
+	document.getElementById("theme-toggle").className = 'light';
+	window.localStorage.setItem('theme', 'dark');
+}
+
+function activateLightTheme() {
+    document.getElementById('theme-toggle').checked = false;
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.classList.add('theme--light');
+    document.documentElement.classList.remove('theme--dark');
+	document.getElementById("theme-toggle").className = 'dark';
+	window.localStorage.setItem('theme', 'light');
+}
+
+if (theme === "dark") {
+    activateDarkTheme();
+} else if (theme === "light") {
+    activateLightTheme();
+} else if  (userPrefers === "light") {
+    activateDarkTheme();
+} else {
+    activateDarkTheme();
+}
+
+function modeSwitcher() {
+	let currentMode = document.documentElement.getAttribute('data-theme');
+	if (currentMode === "dark") {
+	    activateLightTheme();
+	} else {
+	    activateDarkTheme();
+	}
+}
+</script></div>
+  </div>
+</footer>
+
+
+<script>
+      window.FontAwesomeConfig = {
+        searchPseudoElements: true
+      }
+    </script>
+  </body>
+
+</html>

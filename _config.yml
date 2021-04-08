@@ -1,10 +1,10 @@
-title: dash
-author: GitHub User
-email: miguel-gonzalez@gmx.de
+title: 3-Rocks-1-Paper
+author: Gabriel Singh Bruno
+email: gabriel.singhb@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Um blog de exploração de diversos temas dentro do game design
+  com o objetivo de inspirar criatividade e criar discussão sobre
+  todas as formas de jogos.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 paginate: 1
@@ -25,15 +25,32 @@ dash:
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    - url: https://twitter.com/bitbrain_
-      icon: twitter-square
+    - url: https://twitter.com/zappabad
+      icon: twitter
       color: cyan
-    - url: https://bitbrain.itch.io
-      icon: itch-io
-      color: red
-    - url: https://github.com/bitbrain
-      icon: github-square
+    - url: https://github.com/zappabad
+      icon: github
       color: purple
+    - url: https://discordapp.com/users/247560248712364034
+      icon: discord
+      color: blue
+    - url: https://steamcommunity.com/id/Ssilhouette
+      icon: steam
+      color: yellow
+    - url: https://www.linkedin.com/in/gabriel-singh-bruno-8b7a471b6/
+      icon: linkedin
+      color: blue
+    - url: https://www.reddit.com/user/Ssilhouette
+      icon: reddit
+      color: red
+    - url: https://www.twitch.tv/zappabad
+      icon: twitch
+      color: purple
+    - url: https://www.youtube.com/channel/UCZjiRh1_sDyOFzAm4Enk64g
+      icon: youtube
+      color: red
+
+
 
   show_author: true
 

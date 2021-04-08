@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-08T01:40:04-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">3-Rocks-1-Paper</title><subtitle>Um blog de exploração sobre diversos temas dentro do game design.
+</subtitle><author><name>Gabriel Singh Bruno</name></author><entry><title type="html">Três Pedras Ganham de Um Papel</title><link href="http://localhost:4000/2021/04/06/pedra-papel-tesoura.html" rel="alternate" type="text/html" title="Três Pedras Ganham de Um Papel" /><published>2021-04-06T00:00:00-03:00</published><updated>2021-04-06T00:00:00-03:00</updated><id>http://localhost:4000/2021/04/06/pedra-papel-tesoura</id><content type="html" xml:base="http://localhost:4000/2021/04/06/pedra-papel-tesoura.html">&lt;h1 id=&quot;pedra-papel-sistemas-e-história&quot;&gt;Pedra, Papel, Sistemas e História&lt;/h1&gt;
+&lt;p&gt;Pedra-Papel-Tesoura (&lt;strong&gt;RPS&lt;/strong&gt; em inglês) é extremamente simples de se jogar, e, francamente, extremamente sem graça, mas 
+que pode nos ensinar uma grande lição em game design.&lt;/p&gt;
+
+&lt;p&gt;Podemos desconstruir RPS em um jogo que utiliza dois sistemas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ação simultânea -&lt;/strong&gt; Os jogadores fazem escolhas sem conhecimento sobre a ação de seu oponente e ao mesmo tempo. 
+(Você não vê o que o seu oponente fez para decidir o que vai fazer)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Intransitividade -&lt;/strong&gt; Não existe nenhuma opção dominada. (Isto é, todas as opções são igualmente boas: Pedra &amp;lt; 
+Papel &amp;lt; Tesoura &amp;lt; Pedra.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A propriedade de intransitividade faz com que RPS seja caracterizado como um Game of Pure Strategy (Jogo de estratégia 
+pura, ou &lt;strong&gt;GOPS&lt;/strong&gt;). Em um GOPS, não existe necessidade de criação de balanceamento de estratégias, pois todas as 
+estratégias já são, por definição, igualmente capazes. (isso não é &lt;em&gt;exatamente&lt;/em&gt; verdade, expandiremos sobre isso 
+AQUI COLOCAR LINKKKKKKKKKKKKKKKKK). Essa propriedade, por conta da popularidade de RPS, acaba sendo trocada desse 
+nome complicado pela mais simples propriedade de &lt;strong&gt;Rock-Paper-Scissors.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;é-pau-é-pedra-é-uma-trap-de-noobs&quot;&gt;É Pau, é Pedra, é uma Trap de Noobs&lt;/h1&gt;
+
+&lt;p&gt;Jogos modernos frequentemente possuem falta de balanceamento, para o bem ou para o mal. Isso ocorre quando, de todo 
+o conjunto de ações que um jogador pode tomar, algumas delas são dominadas por outras. Em alguns casos, isso pode 
+ser um problema para o jogo, e em outros pode ser uma decisão deliberada, e esse é um ponto importante: &lt;strong&gt;A 
+existência de opções dominadas não é, necessariamente, um problema.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;O processo de crescimento de um jogador muitas vezes &lt;em&gt;depende&lt;/em&gt; do processo de usar uma estratégia, conhecer mais do 
+jogo, e aprender que ela é uma estratégia dominada por outra, fazendo com que o jogador troque de estratégia; que o 
+que parecia ser a melhor coisa a se fazer agora é vista como uma “noob trap”. &lt;strong&gt;E isso em si pode ser divertido.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Como exemplo dessa lição, lembre-se da primeira vez que você jogou um jogo de luta. Você talvez ganhava todas as 
+lutas, até que um dia você jogou contra alguém que ficava do outro lado da tela fazendo spam de Fireballs. Aquele 
+Ryu que usava Hadouken o tempo todo e você não conseguia se aproximar… e quando você finalmente descobriu que é só 
+pular e ir pra cima dele, você só ouvia o Ryu gritando “Shoryuken!”, e aí você caía no chão e tudo começava de novo.&lt;/p&gt;
+
+&lt;p&gt;Depois de algumas partidas &lt;em&gt;extremamente&lt;/em&gt; frustrantes, se você não desistiu de jogar, você provavelmente descobriu 
+como bloquear, ou como não deixar o Ryu sequer tomar distância de você. E aí você começou a ganhar sempre… até que 
+o Ryu aprendeu a lidar com sua nova estratégia, e assim continua o ciclo.&lt;/p&gt;
+
+&lt;p&gt;Todo esse processo pode ser divertido. &lt;strong&gt;Muitas vezes algo que parecia ser uma opção dominada ganha um resignificado 
+na mente do jogador&lt;/strong&gt;, dando à ele mais uma ferramenta pro seu arsenal estratégico, e tudo isso só acontece por conta 
+desse processo de superação.&lt;/p&gt;
+
+&lt;h1 id=&quot;pedra-pra-toda-obra&quot;&gt;Pedra pra Toda Obra&lt;/h1&gt;
+
+&lt;p&gt;Como ferramenta, RPS é muito útil quando o objetivo é criar um sistema que se balanceia automaticamente. É 
+impossível chegar perto do Ryu porque ele fica fazendo spam de &lt;em&gt;Hadouken&lt;/em&gt;? Dê ao Ken uma habilidade que deixa ele 
+evadir as &lt;em&gt;Fireballs&lt;/em&gt; (por exemplo, o &lt;em&gt;Tatsumaki Senpuu Kyaku&lt;/em&gt;, aquele que gira, sabe?). E agora? Ninguém mais usa 
+&lt;em&gt;Hadouken&lt;/em&gt; porque o &lt;em&gt;Tatsumaki&lt;/em&gt; é bom demais em diminuir a distância entre o Ryu e o Ken.&lt;/p&gt;
+
+&lt;p&gt;É aí que entra a Tesoura! Ao invés de mexer nos frames do &lt;em&gt;Tatsumaki&lt;/em&gt; para deixar ele mais lento, ou cobrindo uma 
+distância menor, ou tentar aumentar a velocidade do &lt;em&gt;Hadouken&lt;/em&gt; para dificultar o Ken de desviar delas, é possível usar 
+o RPS para criar uma terceira opção que ganha de &lt;em&gt;Tatsumaki&lt;/em&gt;, mas perde para &lt;em&gt;Hadouken&lt;/em&gt;: &lt;strong&gt;Bloquear.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Se o Ryu bloquear o &lt;em&gt;Tatsumaki&lt;/em&gt;, ele ganha uma vantagem de frames que faz com que a troca (Ken &lt;em&gt;Tatsu&lt;/em&gt; vs. Ryu &lt;em&gt;Block&lt;/em&gt;) 
+seja vantajosa para o Ryu. E, a peça final, claro, é que &lt;em&gt;Hadouken&lt;/em&gt; possui &lt;em&gt;Chip Damage&lt;/em&gt;, isto é, se você bloquear um 
+&lt;em&gt;Hadouken&lt;/em&gt;, a troca é neutra em termos de frames, mas quem bloqueia perde um pouco de vida.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/rps-skills.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Obviamente, esse exemplo tem suas limitações. O Ryu possui ferramentas parecidas com as do Ken, mas com detalhes 
+diferentes (os frames de cada movimento deles são diferentes… O &lt;em&gt;Hadouken&lt;/em&gt; do Ryu é melhor, mas o &lt;em&gt;Tatsumaki&lt;/em&gt; do 
+Ken é melhor que do Ryu). O ponto do exemplo é ilustrar como &lt;strong&gt;a filosofia de RPS pode ser usada para construir 
+profundidade de estratégias.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;la-casa-de-papel&quot;&gt;La Casa de Papel&lt;/h1&gt;
+
+&lt;p&gt;Diferentes escalas de RPS podem ser empregadas no processo de design. Em uma micro-escala temos o exemplo do Ken e 
+Ryu, no qual o sistema é empregado para o balanço de “mini-jogos” que acontecem a cada segundo. É como se fossem 
+jogados vários jogos seguidos de RPS, onde cada vitória representa uma pequena vantagem de pontos de vida. Usar 
+um &lt;em&gt;Hadouken&lt;/em&gt; quando seu oponente bloqueia dá 2% de dano &lt;em&gt;on block&lt;/em&gt;, por exemplo. O vencedor do &lt;em&gt;round&lt;/em&gt; é, portanto, 
+aquele que primeiro vence uma série de várias rodadas de RPS.&lt;/p&gt;
+
+&lt;p&gt;Também é possível usar o RPS em uma macro-escala. No &lt;em&gt;Street Fighter&lt;/em&gt;, por exemplo, existem grupos de personagens 
+que se encaixam, em diferentes quantidades, em uma de três caixas: &lt;em&gt;Grappler&lt;/em&gt;, &lt;em&gt;Zoner&lt;/em&gt; ou &lt;em&gt;Rusher&lt;/em&gt;. 
+&lt;em&gt;Grapplers&lt;/em&gt; são aqueles que se beneficiam de lutas à curta distância, mas que possuem dificuldade em se aproximar de 
+suas vítimas; &lt;em&gt;Rushers&lt;/em&gt; são personagens que dependem da sua mobilidade boa para se aproximar dos seus inimigos … 
+são velozes, porém frágeis; e &lt;em&gt;Zoners&lt;/em&gt;, que são aqueles que possuem mobilidade reduzida, mas são ótimos 
+em punir aqueles que dão tempo para eles carregarem seus movimentos (daí o nome &lt;em&gt;Zoner&lt;/em&gt;)… eles são bons em reagir e 
+manter a distância, mas se ficarem de cara com seus inimigos, rapidamente sucumbem.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/rps-matchups.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fica bem claro que, nesse caso, &lt;strong&gt;existem vantagens mesmo antes da partida começar&lt;/strong&gt;, dependendo do &lt;em&gt;match-up&lt;/em&gt; que é 
+selecionado. Os &lt;em&gt;Grapplers&lt;/em&gt; possuem muita dificuldade de se aproximar dos &lt;em&gt;Zoners&lt;/em&gt;, que se beneficiam 
+dessa distância, normalmente por possuir algum projétil bom que impede o lento e furioso &lt;em&gt;Grappler&lt;/em&gt; de colar nele.
+Os &lt;em&gt;Rushers&lt;/em&gt; adoram jogar contra &lt;em&gt;Zoners&lt;/em&gt;, pois, assim que conseguirem se aproximar (graças à sua 
+mobilidade aumentada), a luta fica à seu favor, já que os &lt;em&gt;Zoners&lt;/em&gt; não podem se beneficiar de suas habilidades à 
+longa distância. E, finalmente, os &lt;em&gt;Grapplers&lt;/em&gt; ficam tranquilos ao lutar contra &lt;em&gt;Rushers&lt;/em&gt;, pois não precisam se 
+preocupar em se aproximar deles… é só esperar que a &lt;em&gt;Chun-Li&lt;/em&gt; (uma clássica &lt;em&gt;Rusher&lt;/em&gt;) venha pra cima de você, 
+afinal, ela depende de ficar próxima pra lutar, e assim que a luta ficar no mano-a-mano, o poder devastador de um 
+&lt;em&gt;Grappler&lt;/em&gt; consegue atropelar a fragilidade de seu oponente.&lt;/p&gt;
+
+&lt;p&gt;Em micro-escala, vencer uma rodada de RPS significava uma pequena vitória em pontos de vida, e em macro-escala, 
+ganhar um RPS ao escolher um estilo de personagem bom contra o seu oponente significa começar a série já com algumas 
+rodadas vencidas… o seu oponente vai ter que fazer hora extra pra compensar a desvantagem de &lt;em&gt;match-up&lt;/em&gt; que ele 
+escolheu tomar.&lt;/p&gt;
+
+&lt;h1 id=&quot;-lizard-e-spock&quot;&gt;… Lizard e Spock&lt;/h1&gt;
+
+&lt;p&gt;Os sistemas de RPS em macro-escala podem acontecer em diferentes magnitudes. Por um lado, pode ser uma parte 
+importante do que faz o jogo ficar “justo” por ser um sistema de cheques e balanças que é integral para que o jogo 
+possua alguma noção de &lt;em&gt;counterplay&lt;/em&gt;. Por outro, pode causar uma sensação de injustiça e desamparo para os jogadores 
+que podem achar que já começam perdendo mesmo antes do jogo começar.&lt;/p&gt;
+
+&lt;p&gt;Como exemplo, pense na fase de escolha de personagem no &lt;em&gt;League of Legends.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This is a quote which should be followed”
+Also I think this sentence is quite long.
+more quote text to come&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Chris Wayne&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;However, these are bulletpoints:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/li&gt;
+  &lt;li&gt;another point&lt;/li&gt;
+  &lt;li&gt;that’s it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, these entries should not be styled:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;an entry&lt;/li&gt;
+  &lt;li&gt;another entry&lt;/li&gt;
+  &lt;li&gt;that’s another entry&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;video preload=&quot;auto&quot; poster=&quot;https://pbs.twimg.com/tweet_video_thumb/D5aj3tfW0AIiSxo.jpg&quot; src=&quot;https://video.twimg.com/tweet_video/D5aj3tfW0AIiSxo.mp4&quot; type=&quot;video/mp4&quot; autoplay=&quot;&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;an-interesting-fact-on-the-economy-of-modern-america&quot;&gt;An interesting fact on the economy of modern America&lt;/h1&gt;
+
+&lt;p&gt;Pictures look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picsum.photos/200&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/jekyll?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#jekyll&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dash?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dash&lt;/a&gt; now officially supports both, dark and light theming. Enjoy!&lt;a href=&quot;https://t.co/4evp9pX2Ws&quot;&gt;https://t.co/4evp9pX2Ws&lt;/a&gt; &lt;a href=&quot;https://t.co/vOQCZjGKic&quot;&gt;pic.twitter.com/vOQCZjGKic&lt;/a&gt;&lt;/p&gt;&amp;mdash; 〽️ɪɢᴜᴇʟ (@bitbrain_) &lt;a href=&quot;https://twitter.com/bitbrain_/status/1166440978124877827?ref_src=twsrc%5Etfw&quot;&gt;August 27, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>Gabriel Singh Bruno</name></author><category term="sistemas" /><category term="design" /><summary type="html">Pedra, Papel, Sistemas e História Pedra-Papel-Tesoura (RPS em inglês) é extremamente simples de se jogar, e, francamente, extremamente sem graça, mas que pode nos ensinar uma grande lição em game design.</summary></entry><entry><title type="html">Introducing waiting functionality</title><link href="http://localhost:4000/2019/04/13/introduction-to-waiting.html" rel="alternate" type="text/html" title="Introducing waiting functionality" /><published>2019-04-13T00:00:00-03:00</published><updated>2019-04-13T00:00:00-03:00</updated><id>http://localhost:4000/2019/04/13/introduction-to-waiting</id><content type="html" xml:base="http://localhost:4000/2019/04/13/introduction-to-waiting.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Gabriel Singh Bruno</name></author><category term="introduction" /><category term="tutorial" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">An extensive analysis on game design</title><link href="http://localhost:4000/2019/03/16/analysis-of-design.html" rel="alternate" type="text/html" title="An extensive analysis on game design" /><published>2019-03-16T00:00:00-03:00</published><updated>2019-03-16T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/16/analysis-of-design</id><content type="html" xml:base="http://localhost:4000/2019/03/16/analysis-of-design.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Gabriel Singh Bruno</name></author><category term="analysis" /><category term="design" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Review: Game of Thrones Saga</title><link href="http://localhost:4000/2019/01/10/review-game-of-thrones.html" rel="alternate" type="text/html" title="Review: Game of Thrones Saga" /><published>2019-01-10T00:00:00-03:00</published><updated>2019-01-10T00:00:00-03:00</updated><id>http://localhost:4000/2019/01/10/review-game-of-thrones</id><content type="html" xml:base="http://localhost:4000/2019/01/10/review-game-of-thrones.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Gabriel Singh Bruno</name></author><category term="got" /><category term="review" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
