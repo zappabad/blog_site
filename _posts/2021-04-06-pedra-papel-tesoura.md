@@ -63,6 +63,8 @@ seja vantajosa para o Ryu. E, a peça final, claro, é que *Hadouken* possui *Ch
 
 ![image](https://imgur.com/a/OAueGn2)
 
+<img src="{{site.baseurl}}/assets/img/rps-skills.png">
+
 Obviamente, esse exemplo tem suas limitações. O Ryu possui ferramentas parecidas com as do Ken, mas com detalhes 
 diferentes (os frames de cada movimento deles são diferentes... O *Hadouken* do Ryu é melhor, mas o *Tatsumaki* do 
 Ken é melhor que do Ryu). O ponto do exemplo é ilustrar como a filosofia de RPS pode ser usada para construir 
