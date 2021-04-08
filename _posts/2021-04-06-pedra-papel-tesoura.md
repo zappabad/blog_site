@@ -61,7 +61,7 @@ Se o Ryu bloquear o *Tatsumaki*, ele ganha uma vantagem de frames que faz com qu
 seja vantajosa para o Ryu. E, a peça final, claro, é que *Hadouken* possui *Chip Damage*, isto é, se você bloquear um 
 *Hadouken*, a troca é neutra em termos de frames, mas quem bloqueia perde um pouco de vida.
 
-![image](https://imgur.com/a/OAueGn2)
+![image](https://i.imgur.com/xLkJWqG.png)
 
 <img src="{{site.baseurl}}/assets/img/rps-skills.png">
 
